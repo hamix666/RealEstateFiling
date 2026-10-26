@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RealEstateFilingWin.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IsServer" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SvrName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DESKTOP-49ANEBF\HAMIDSQL</Value>
+    </Setting>
+    <Setting Name="Pro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">$2a$11$tZwit/yQIfi2cGqtODUqnOEOj97FKMRZEaInktwd44X8G/iEbVdou</Value>
+    </Setting>
+    <Setting Name="IPServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.1.33</Value>
+    </Setting>
+    <Setting Name="branchid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">b6cf508e-dc91-42af-bfdc-934cbe65a239</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

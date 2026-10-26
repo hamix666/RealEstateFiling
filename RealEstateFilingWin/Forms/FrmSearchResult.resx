@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>298, 17</value>
+  </metadata>
+  <data name="gmain.BuiltInTextsData" xml:space="preserve">
+    <value>&lt;LocalizableData ID="LocalizableStrings" Collection="true"&gt;&lt;GroupByBoxInfo&gt;برای گروه بندی ستون مورد نظر را اینجا بکشید&lt;/GroupByBoxInfo&gt;&lt;RecordNavigator&gt;رکورد: |از&lt;/RecordNavigator&gt;&lt;DropDownOkButton&gt;تایید&lt;/DropDownOkButton&gt;&lt;DropDownCancelButton&gt;انصراف&lt;/DropDownCancelButton&gt;&lt;FilterRowConditionEqual&gt;مساوی&lt;/FilterRowConditionEqual&gt;&lt;FilterRowConditionNotEqual&gt;مخالف&lt;/FilterRowConditionNotEqual&gt;&lt;FilterRowConditionGreaterThan&gt;بزرگتر از&lt;/FilterRowConditionGreaterThan&gt;&lt;FilterRowConditionGreaterThanOrEqual&gt;بزرگتر با مساوی&lt;/FilterRowConditionGreaterThanOrEqual&gt;&lt;FilterRowConditionLessThan&gt;کمتر از&lt;/FilterRowConditionLessThan&gt;&lt;FilterRowConditionLessThanOrEqual&gt;کمتر یا مساوی&lt;/FilterRowConditionLessThanOrEqual&gt;&lt;FilterRowConditionContains&gt;شامل&lt;/FilterRowConditionContains&gt;&lt;FilterRowConditionNotContains&gt;شامل نباشد&lt;/FilterRowConditionNotContains&gt;&lt;FilterRowConditionEndsWith&gt;خاتمه با&lt;/FilterRowConditionEndsWith&gt;&lt;FilterRowConditionBeginsWith&gt;آغاز با&lt;/FilterRowConditionBeginsWith&gt;&lt;FilterRowConditionIsEmpty&gt;خالی&lt;/FilterRowConditionIsEmpty&gt;&lt;FilterRowConditionNotIsEmpty&gt;خالی نباشد&lt;/FilterRowConditionNotIsEmpty&gt;&lt;FilterRowConditionClear&gt;پاک کردن&lt;/FilterRowConditionClear&gt;&lt;/LocalizableData&gt;</value>
+  </data>
+  <data name="gmain_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ID"&gt;&lt;Caption&gt;ID&lt;/Caption&gt;&lt;DataMember&gt;ID&lt;/DataMember&gt;&lt;Key&gt;ID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="ContractType"&gt;&lt;Caption&gt;نوع معامله&lt;/Caption&gt;&lt;DataMember&gt;ContractType&lt;/DataMember&gt;&lt;Key&gt;ContractType&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;63&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="FileType,"&gt;&lt;Caption&gt;نوع ملک&lt;/Caption&gt;&lt;DataMember&gt;FileType&lt;/DataMember&gt;&lt;Key&gt;FileType,&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;73&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="CreationDate,"&gt;&lt;Caption&gt;تاریخ&lt;/Caption&gt;&lt;DataMember&gt;CreationDate&lt;/DataMember&gt;&lt;Key&gt;CreationDate,&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="Region"&gt;&lt;Caption&gt;منطقه&lt;/Caption&gt;&lt;DataMember&gt;Region&lt;/DataMember&gt;&lt;Key&gt;Region&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Width&gt;89&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="MName"&gt;&lt;Caption&gt;مالک&lt;/Caption&gt;&lt;DataMember&gt;MName&lt;/DataMember&gt;&lt;Key&gt;MName&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;123&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="Tabaghe"&gt;&lt;Caption&gt;طبقه&lt;/Caption&gt;&lt;DataMember&gt;Tabaghe&lt;/DataMember&gt;&lt;Key&gt;Tabaghe&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Width&gt;42&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="Zirbana"&gt;&lt;Caption&gt;زیربنا&lt;/Caption&gt;&lt;DataMember&gt;Zirbana&lt;/DataMember&gt;&lt;Key&gt;Zirbana&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Width&gt;46&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="Asansor"&gt;&lt;Caption&gt;آسانسور&lt;/Caption&gt;&lt;DataMember&gt;Asansor&lt;/DataMember&gt;&lt;Key&gt;Asansor&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Width&gt;56&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="Parking"&gt;&lt;Caption&gt;پارکینگ&lt;/Caption&gt;&lt;DataMember&gt;Parking&lt;/DataMember&gt;&lt;Key&gt;Parking&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;Width&gt;54&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="Anbari"&gt;&lt;Caption&gt;انباری&lt;/Caption&gt;&lt;DataMember&gt;Anbari&lt;/DataMember&gt;&lt;Key&gt;Anbari&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;Width&gt;51&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="Senbana"&gt;&lt;Caption&gt;سن بنا&lt;/Caption&gt;&lt;DataMember&gt;Senbana&lt;/DataMember&gt;&lt;Key&gt;Senbana&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;Width&gt;59&lt;/Width&gt;&lt;/Column11&gt;&lt;Column12 ID="Price1"&gt;&lt;Caption&gt;قیمت واحد / مبلغ اجاره&lt;/Caption&gt;&lt;DataMember&gt;Price1&lt;/DataMember&gt;&lt;FormatString&gt;N0&lt;/FormatString&gt;&lt;Key&gt;Price1&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Width&gt;97&lt;/Width&gt;&lt;/Column12&gt;&lt;Column13 ID="Price2"&gt;&lt;Caption&gt;قیمت کل / مبلغ رهن&lt;/Caption&gt;&lt;DataMember&gt;Price2&lt;/DataMember&gt;&lt;FormatString&gt;N0&lt;/FormatString&gt;&lt;Key&gt;Price2&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;Width&gt;107&lt;/Width&gt;&lt;/Column13&gt;&lt;Column14 ID="Address"&gt;&lt;Caption&gt;آدرس&lt;/Caption&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;DataMember&gt;Address&lt;/DataMember&gt;&lt;Key&gt;Address&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Width&gt;249&lt;/Width&gt;&lt;/Column14&gt;&lt;/Columns&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="FormatCondition2"&gt;&lt;ColIndex&gt;8&lt;/ColIndex&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;255, 128, 128&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;TargetColIndex&gt;8&lt;/TargetColIndex&gt;&lt;Key&gt;FormatCondition2&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;8&lt;/ColumnIndex&gt;&lt;Value1&gt;ندارد&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition0&gt;&lt;Condition1 ID="FormatCondition3"&gt;&lt;ColIndex&gt;9&lt;/ColIndex&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;255, 128, 128&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;TargetColIndex&gt;9&lt;/TargetColIndex&gt;&lt;Value1&gt;0&lt;/Value1&gt;&lt;Key&gt;FormatCondition3&lt;/Key&gt;&lt;/Condition1&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;HeaderLines&gt;2&lt;/HeaderLines&gt;&lt;PreviewRowLines&gt;4&lt;/PreviewRowLines&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>421, 17</value>
+  </metadata>
+</root>

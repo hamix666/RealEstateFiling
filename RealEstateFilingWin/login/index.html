@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرم ورود و ثبت نام</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="loader" id="loader">در حال بارگذاری...</div>
+    <div class="container" id="container" style="display:none;">
+        <div class="curved-shape"></div>
+        <div class="curved-shape2"></div>
+
+        <!-- فرم ورود -->
+        <div class="form-box Login">
+            <h2 class="animation" style="--D:0; --S:21">ورود</h2>
+            <form id="loginForm">
+                <div class="input-box animation" style="--D:1; --S:22">
+                    <input id="username" type="text" required>
+                    <label>نام کاربری</label>
+                    <box-icon type='solid' name='user' color="gray"></box-icon>
+                </div>
+                <div class="input-box animation" style="--D:2; --S:23">
+                    <input id="password" type="password" required>
+                    <label>رمز عبور</label>
+                    <box-icon name='lock-alt' type='solid' color="gray"></box-icon>
+                </div>
+                <div class="input-box animation" style="--D:3; --S:24">
+                    <button class="btn" type="submit">ورود</button>
+                </div>
+                <div class="regi-link animation" style="--D:4; --S:25">
+                    <p>حساب کاربری ندارید؟ <a href="#" class="SignUpLink">ثبت نام</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="info-content Login">
+            <h2 class="animation" style="--D:0; --S:20">خوش آمدید!</h2>
+            <p class="animation" style="--D:1; --S:21">خوشحالیم که دوباره با ما هستید.</p>
+        </div>
+
+        <!-- فرم ثبت‌نام -->
+        <div class="form-box Register">
+            <h2 class="animation" style="--li:17; --S:0">ثبت نام</h2>
+            <form id="registerForm">
+                <div class="input-box animation" style="--li:18; --S:1">
+                    <input id="reg_name" type="text" required>
+                    <label>نام و نام خانوادگی</label>
+                    <box-icon type='solid' name='user' color="gray"></box-icon>
+                </div>
+                <div class="input-box animation" style="--li:18; --S:1">
+                    <input id="reg_mobile" type="text" required>
+                    <label>شماره موبایل</label>
+                    <box-icon type='solid' name='user' color="gray"></box-icon>
+                </div>
+                <div class="input-box animation" style="--li:18; --S:1">
+                    <input id="reg_username" type="text" required>
+                    <label>نام کاربری</label>
+                    <box-icon type='solid' name='user' color="gray"></box-icon>
+                </div>
+
+                <div class="input-box animation" style="--li:19; --S:3">
+                    <input id="reg_password" type="password" required>
+                    <label>رمز عبور</label>
+                    <box-icon name='lock-alt' type='solid' color="gray"></box-icon>
+                </div>
+                <div class="input-box animation" style="--li:20; --S:4">
+                    <button class="btn" type="submit">ثبت نام</button>
+                </div>
+                <div class="regi-link animation" style="--li:21; --S:5">
+                    <p>قبلاً ثبت نام کرده‌اید؟ <a href="#" class="SignInLink">ورود</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="info-content Register">
+            <h2 class="animation" style="--li:17; --S:0">خوش آمدید!</h2>
+            <p class="animation" style="--li:18; --S:1">از حضور شما در کنار ما خوشحالیم.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
